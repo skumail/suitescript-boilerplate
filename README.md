@@ -17,11 +17,13 @@ $ npm install
 ```
 
 ## Build
-
 To build suitescript 2.x compatible code
 ```
 $ npm run build
 ```
+## Style Guide
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+
 ### Writing SuiteScript
 #### ES6 ClientScript Example 
 ```javascript
