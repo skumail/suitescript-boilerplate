@@ -1,0 +1,26 @@
+{
+  "name": "suitescript-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint-init": "eslint --init"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-simple-desctructure-amd": "^0.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "eslintIgnore": [
+    "dist/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
