@@ -24,8 +24,8 @@ $ npm run build
 ## Style Guide
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
-### Writing SuiteScript
-#### ES6 ClientScript Example 
+## Writing SuiteScript
+### ES6 ClientScript Example 
 ```javascript
 /**
 *@NApiVersion 2.x
@@ -109,7 +109,7 @@ export default {
   fieldChanged,
 };
 ```
-#### Netsuite Compatible ClientScript After build
+### Netsuite Compatible ClientScript After build
 ```javascript
 'use strict';
 
