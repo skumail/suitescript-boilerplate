@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d dist",
+    "build": "babel --watch src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint-init": "eslint --init"
   },
@@ -22,5 +22,8 @@
   ],
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-watch": "^2.0.7"
+  }
 }
