@@ -1,7 +1,13 @@
 {
     "extends": "airbnb-base",
     "rules": {
-        "linebreak-style": ["error", "windows"],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
         "import/no-unresolved": "off"
-        }
+    },
+    "env": {
+        "jest": true
+    }
 }

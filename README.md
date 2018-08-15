@@ -21,6 +21,17 @@ To build suitescript 2.x compatible code
 ```
 $ npm run build
 ```
+To watch build changes
+```
+$ npm run watch:build
+```
+
+## Test
+jest 
+```
+$ npm test
+```
+
 ## Style Guide
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
